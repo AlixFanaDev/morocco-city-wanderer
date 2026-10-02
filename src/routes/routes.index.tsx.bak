@@ -6,7 +6,7 @@ import { PageHero } from "@/components/SectionHeading";
 import { CtaBanner } from "@/components/CtaBanner";
 import { Reveal } from "@/components/Reveal";
 
-export const Route = createFileRoute("/routes")({
+export const Route = createFileRoute("/routes/")({
   head: () => ({
     meta: [
       { title: "Rutas — Musti Targui Morocco Tours" },
