@@ -1,0 +1,1338 @@
+{
+  "brand": {
+    "name": "Musti Targui Morocco Tours",
+    "short": "Musti Targui",
+    "tagline": {
+      "es": "Tu ruta. Tu ritmo. Tu Marruecos.",
+      "en": "Your route. Your rhythm. Your Morocco."
+    },
+    "strapline": "Real Experiences · Authentic Morocco",
+    "slogans": [
+      {
+        "es": "Más que un viaje… una experiencia.",
+        "en": "More than a trip… an experience."
+      },
+      {
+        "es": "Un viaje, mil emociones.",
+        "en": "One journey, a thousand emotions."
+      },
+      {
+        "es": "Paisajes que te roban el alma.",
+        "en": "Landscapes that steal your soul."
+      },
+      {
+        "es": "Descubre el verdadero Marruecos.",
+        "en": "Discover the real Morocco."
+      }
+    ],
+    "logo": "logo.png",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "defaultLanguage": "es",
+    "tone": {
+      "es": "Cálido, auténtico, evocador, cercano; frases cortas y poéticas.",
+      "en": "Warm, authentic, evocative and personal; short, poetic sentences."
+    }
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "label": {
+        "es": "Inicio",
+        "en": "Home"
+      }
+    },
+    {
+      "id": "routes",
+      "label": {
+        "es": "Rutas",
+        "en": "Routes"
+      }
+    },
+    {
+      "id": "experiences",
+      "label": {
+        "es": "Experiencias",
+        "en": "Experiences"
+      }
+    },
+    {
+      "id": "why",
+      "label": {
+        "es": "Por qué nosotros",
+        "en": "Why us"
+      }
+    },
+    {
+      "id": "gallery",
+      "label": {
+        "es": "Galería",
+        "en": "Gallery"
+      }
+    },
+    {
+      "id": "faq",
+      "label": "FAQ"
+    },
+    {
+      "id": "contact",
+      "label": {
+        "es": "Reservar",
+        "en": "Book"
+      },
+      "cta": true
+    }
+  ],
+  "hero": {
+    "eyebrow": "Real Experiences · Authentic Morocco",
+    "title": {
+      "es": "Tu ruta. Tu ritmo. Tu Marruecos.",
+      "en": "Your route. Your rhythm. Your Morocco."
+    },
+    "subtitle": {
+      "es": "Circuitos privados o en grupo desde Marrakech: kasbahs, Atlas, Sahara y costa atlántica, con guías locales que viven el desierto.",
+      "en": "Private or small-group tours from Marrakech: kasbahs, the Atlas, the Sahara and the Atlantic coast, with local guides who live the desert."
+    },
+    "primaryCta": {
+      "label": {
+        "es": "Ver rutas",
+        "en": "See routes"
+      },
+      "target": "#routes"
+    },
+    "secondaryCta": {
+      "label": {
+        "es": "Reservar por WhatsApp",
+        "en": "Book on WhatsApp"
+      },
+      "target": "whatsapp"
+    }
+  },
+  "highlights": [
+    {
+      "icon": "mountain",
+      "label": {
+        "es": "Montañas",
+        "en": "Mountains"
+      }
+    },
+    {
+      "icon": "kasbah",
+      "label": {
+        "es": "Kasbahs",
+        "en": "Kasbahs"
+      }
+    },
+    {
+      "icon": "palm",
+      "label": {
+        "es": "Valles y oasis",
+        "en": "Valleys & oases"
+      }
+    },
+    {
+      "icon": "camel",
+      "label": {
+        "es": "Desierto",
+        "en": "Desert"
+      }
+    },
+    {
+      "icon": "surf",
+      "label": {
+        "es": "Costa y surf",
+        "en": "Coast & surf"
+      }
+    },
+    {
+      "icon": "city",
+      "label": {
+        "es": "Ciudades imperiales",
+        "en": "Imperial cities"
+      }
+    },
+    {
+      "icon": "camera",
+      "label": {
+        "es": "Cultura y artesanía",
+        "en": "Culture & crafts"
+      }
+    },
+    {
+      "icon": "sunset",
+      "label": {
+        "es": "Atardeceres",
+        "en": "Sunsets"
+      }
+    }
+  ],
+  "about": {
+    "title": {
+      "es": "Marruecos, contado desde dentro",
+      "en": "Morocco, told from the inside"
+    },
+    "text": [
+      {
+        "es": "Musti Targui Morocco Tours nace en Merzouga, a las puertas del Sahara. Nuestras rutas no son solo circuitos: son una forma de atravesar Marruecos, de las montañas del Atlas a las dunas y del océano a las ciudades imperiales.",
+        "en": "Musti Targui Morocco Tours was born in Merzouga, at the gates of the Sahara. Our routes are not just circuits: they are a way of crossing Morocco, from the Atlas mountains to the dunes and from the ocean to the imperial cities."
+      },
+      {
+        "es": "Viajas con guías locales expertos, alojamientos seleccionados y comida tradicional marroquí, a tu ritmo.",
+        "en": "You travel with expert local guides, carefully chosen accommodation and traditional Moroccan food, at your own pace."
+      }
+    ]
+  },
+  "routeTypes": {
+    "kasbahs": {
+      "es": "Kasbahs",
+      "en": "Kasbahs"
+    },
+    "desert": {
+      "es": "Desierto",
+      "en": "Desert"
+    },
+    "coast": {
+      "es": "Costa",
+      "en": "Coast"
+    },
+    "imperial": {
+      "es": "Ciudades imperiales",
+      "en": "Imperial cities"
+    },
+    "signature": "Signature"
+  },
+  "routes": [
+    {
+      "slug": "kasbah-express-2d",
+      "code": "Route 01",
+      "type": "kasbahs",
+      "days": 2,
+      "nights": 1,
+      "name": {
+        "es": "Escapada a las Kasbahs",
+        "en": "Kasbah Escape"
+      },
+      "route": "Marrakech → Atlas → Aït Ben Haddou → Ouarzazate → Marrakech",
+      "tagline": {
+        "es": "De la ciudad ocre al corazón del sur.",
+        "en": "From the ochre city to the heart of the south."
+      },
+      "closing": {
+        "es": "Un corto viaje, una gran aventura.",
+        "en": "A short trip, a big adventure."
+      },
+      "modes": [
+        "private",
+        "group"
+      ],
+      "price": "[COMPLETAR]",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": {
+            "es": "Marrakech → Atlas → Aït Ben Haddou → Ouarzazate",
+            "en": "Marrakech → Atlas → Aït Ben Haddou → Ouarzazate"
+          },
+          "description": {
+            "es": "Salimos de la ciudad ocre y cruzamos el Alto Atlas por el Tizi n'Tichka, una de las carreteras más espectaculares del recorrido. Visitamos Aït Ben Haddou, ksar de tierra declarado Patrimonio de la Humanidad por la UNESCO, y terminamos el día en Ouarzazate, la puerta del sur y del cine.",
+            "en": "We leave the ochre city and cross the High Atlas over the Tizi n'Tichka pass, one of the most spectacular roads of the journey. We visit Aït Ben Haddou, a UNESCO World Heritage mud-brick ksar, and end the day in Ouarzazate, gateway to the south and to Moroccan cinema."
+          },
+          "stops": [
+            "Marrakech",
+            "Tizi n'Tichka",
+            "Aït Ben Haddou",
+            "Ouarzazate"
+          ]
+        },
+        {
+          "day": 2,
+          "title": {
+            "es": "Ouarzazate → Marrakech",
+            "en": "Ouarzazate → Marrakech"
+          },
+          "description": {
+            "es": "Regresamos atravesando de nuevo el Atlas, disfrutando de los paisajes, los pequeños pueblos y la belleza del camino.",
+            "en": "We return across the Atlas again, enjoying the landscapes, small villages and the beauty of the road."
+          },
+          "stops": [
+            "Alto Atlas",
+            "Pueblos bereberes"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "atlantic-coast-3d",
+      "code": "Route 02",
+      "type": "coast",
+      "days": 3,
+      "nights": 2,
+      "name": {
+        "es": "Costa Atlántica",
+        "en": "Atlantic Coast"
+      },
+      "route": "Marrakech → Essaouira → Aghror → Taghazout → Agadir / Marrakech",
+      "tagline": {
+        "es": "Del alma de Marrakech al océano Atlántico.",
+        "en": "From the soul of Marrakech to the Atlantic Ocean."
+      },
+      "closing": {
+        "es": "3 días. Una costa. Muchas historias.",
+        "en": "3 days. One coast. Many stories."
+      },
+      "modes": [
+        "private",
+        "group"
+      ],
+      "price": "[COMPLETAR]",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": {
+            "es": "Marrakech → Essaouira",
+            "en": "Marrakech → Essaouira"
+          },
+          "description": {
+            "es": "Salimos por la mañana y cruzamos el campo marroquí y pequeñas aldeas bereberes hasta Essaouira, ciudad atlántica con medina Patrimonio de la Humanidad. Paseo por el puerto pesquero, las murallas y la Skala, con tiempo libre. Noche en un riad u hotel.",
+            "en": "We leave in the morning and cross the Moroccan countryside and small Berber villages to Essaouira, an Atlantic city with a UNESCO-listed medina. Walk the fishing port, the ramparts and the Skala, with free time. Night in a riad or hotel."
+          },
+          "stops": [
+            "Medina y puerto",
+            "Murallas y Skala",
+            "Calles blancas y azules"
+          ]
+        },
+        {
+          "day": 2,
+          "title": {
+            "es": "Essaouira → Aghror → Taghazout",
+            "en": "Essaouira → Aghror → Taghazout"
+          },
+          "description": {
+            "es": "Continuamos hacia Aghror, playa tranquila y auténtica lejos del bullicio, para relajarnos y almorzar frente al mar. Por la tarde llegamos a Taghazout, antiguo pueblo de pescadores y capital del surf, con su ambiente bohemio. Noche en Taghazout.",
+            "en": "We continue to Aghror, a quiet, authentic beach away from the crowds, for relaxing and lunch by the sea. In the afternoon we reach Taghazout, a former fishing village and surf capital with a bohemian feel. Night in Taghazout."
+          },
+          "stops": [
+            "Playa de Aghror",
+            "Taghazout",
+            "Surf (opcional)"
+          ]
+        },
+        {
+          "day": 3,
+          "title": {
+            "es": "Taghazout → Agadir (o regreso a Marrakech)",
+            "en": "Taghazout → Agadir (or return to Marrakech)"
+          },
+          "description": {
+            "es": "Mañana libre en la playa o sesión de surf opcional. Terminamos en Agadir, con su paseo marítimo, gastronomía y ambiente costero; o bien regresamos a Marrakech por paisajes de montaña, con paradas panorámicas, llegando por la noche.",
+            "en": "Free morning at the beach or an optional surf session. We finish in Agadir with its seafront promenade, food and coastal atmosphere, or head back to Marrakech through mountain scenery with panoramic stops, arriving in the evening."
+          },
+          "stops": [
+            "Agadir",
+            "Paradas panorámicas"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sahara-express-4d",
+      "code": "Route 03",
+      "type": "desert",
+      "days": 4,
+      "nights": 3,
+      "name": {
+        "es": "Del Atlas al Sahara",
+        "en": "Atlas to Sahara"
+      },
+      "route": "Marrakech → Aït Ben Haddou → Dadès → Todra → Merzouga",
+      "tagline": {
+        "es": "De las montañas al Sahara, un viaje de contrastes.",
+        "en": "From the mountains to the Sahara, a journey of contrasts."
+      },
+      "closing": {
+        "es": "4 días. Montañas, kasbahs, valles y Sahara.",
+        "en": "4 days. Mountains, kasbahs, valleys and Sahara."
+      },
+      "modes": [
+        "private",
+        "group"
+      ],
+      "price": "[COMPLETAR]",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": {
+            "es": "Marrakech → Atlas → Aït Ben Haddou → Ouarzazate",
+            "en": "Marrakech → Atlas → Aït Ben Haddou → Ouarzazate"
+          },
+          "description": {
+            "es": "Atravesamos el Alto Atlas por el Tizi n'Tichka, visitamos el ksar de Aït Ben Haddou y llegamos a Ouarzazate, la puerta del sur ligada al cine.",
+            "en": "We cross the High Atlas over the Tizi n'Tichka, visit the ksar of Aït Ben Haddou and arrive in Ouarzazate, the gateway to the south and cinema."
+          },
+          "stops": [
+            "Marrakech",
+            "Atlas",
+            "Aït Ben Haddou",
+            "Ouarzazate"
+          ]
+        },
+        {
+          "day": 2,
+          "title": {
+            "es": "Ouarzazate → Skoura → Valle del Dadès",
+            "en": "Ouarzazate → Skoura → Dadès Valley"
+          },
+          "description": {
+            "es": "Paramos en Skoura, oasis de palmerales y kasbahs tradicionales, y seguimos hasta el Valle del Dadès, de valles, formaciones rocosas y pueblos bereberes.",
+            "en": "We stop in Skoura, an oasis of palm groves and traditional kasbahs, then continue to the Dadès Valley of canyons, rock formations and Berber villages."
+          },
+          "stops": [
+            "Skoura",
+            "Valle del Dadès"
+          ]
+        },
+        {
+          "day": 3,
+          "title": {
+            "es": "Dadès → Gargantas del Todra → Merzouga",
+            "en": "Dadès → Todra Gorge → Merzouga"
+          },
+          "description": {
+            "es": "Recorremos las impresionantes paredes de roca de las Gargantas del Todra y llegamos al Sahara: dunas, silencio, un atardecer inolvidable y noche en el desierto.",
+            "en": "We walk between the towering rock walls of the Todra Gorge and arrive in the Sahara: dunes, silence, an unforgettable sunset and a night in the desert."
+          },
+          "stops": [
+            "Gargantas del Todra",
+            "Merzouga",
+            "Noche en el desierto"
+          ]
+        },
+        {
+          "day": 4,
+          "title": {
+            "es": "Merzouga → regreso / continuación",
+            "en": "Merzouga → return / onward journey"
+          },
+          "description": {
+            "es": "Comenzamos el día con un amanecer mágico sobre las dunas antes de continuar hacia tu próximo destino.",
+            "en": "We start the day with a magical sunrise over the dunes before continuing to your next destination."
+          },
+          "stops": [
+            "Amanecer en las dunas"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kasbah-route-4d",
+      "code": "Ruta de las Kasbahs",
+      "type": "kasbahs",
+      "days": 4,
+      "nights": 3,
+      "name": {
+        "es": "Ruta de las Kasbahs · 4 días",
+        "en": "Kasbah Route · 4 days"
+      },
+      "route": "Marrakech → Dadès → Merzouga → N'Kob → Ouarzazate → Marrakech",
+      "tagline": {
+        "es": "Paisajes que te roban el alma.",
+        "en": "Landscapes that steal your soul."
+      },
+      "closing": {
+        "es": "Un viaje, mil emociones.",
+        "en": "One journey, a thousand emotions."
+      },
+      "modes": [
+        "private",
+        "group"
+      ],
+      "price": "[COMPLETAR]",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": {
+            "es": "Marrakech → Dadès",
+            "en": "Marrakech → Dadès"
+          },
+          "description": {
+            "es": "Salida temprano cruzando el Alto Atlas por el Tizi n'Tichka. Visitamos la Kasbah de Aït Ben Haddou y seguimos por la Ruta de las Mil Kasbahs hasta el Valle de las Rosas y el Valle del Dadès. Noche en hotel o kasbah.",
+            "en": "Early departure across the High Atlas via the Tizi n'Tichka. We visit the Kasbah of Aït Ben Haddou and follow the Road of a Thousand Kasbahs to the Valley of Roses and the Dadès Valley. Night in a hotel or kasbah."
+          },
+          "stops": [
+            "Paso de Tizi n'Tichka",
+            "Kasbah de Aït Ben Haddou",
+            "Valle de las Rosas",
+            "Noche en el Dadès"
+          ]
+        },
+        {
+          "day": 2,
+          "title": {
+            "es": "Dadès → Merzouga",
+            "en": "Dadès → Merzouga"
+          },
+          "description": {
+            "es": "Tras el desayuno exploramos las Gargantas del Todra y seguimos hacia el desierto por palmerales y pueblos bereberes. En Merzouga, paseo en camello al atardecer y noche en campamento bajo las estrellas.",
+            "en": "After breakfast we explore the Todra Gorge and continue toward the desert through palm groves and Berber villages. In Merzouga: camel ride at sunset and a night in a desert camp under the stars."
+          },
+          "stops": [
+            "Gargantas del Todra",
+            "Paseo en camello",
+            "Noche en campamento"
+          ]
+        },
+        {
+          "day": 3,
+          "title": {
+            "es": "Merzouga → N'Kob",
+            "en": "Merzouga → N'Kob"
+          },
+          "description": {
+            "es": "Amanecer en el desierto y desayuno tradicional. Rumbo a Rissani, ciudad histórica con su famoso mercado, y por el Valle del Drâa, con oasis y pueblos de adobe, hasta N'Kob, conocido por sus kasbahs. Noche en N'Kob.",
+            "en": "Sunrise in the desert and a traditional breakfast. On to Rissani, a historic town with its famous market, then along the Drâa Valley with oases and adobe villages to N'Kob, known for its kasbahs. Night in N'Kob."
+          },
+          "stops": [
+            "Amanecer en las dunas",
+            "Rissani",
+            "Valle del Drâa",
+            "Noche en N'Kob"
+          ]
+        },
+        {
+          "day": 4,
+          "title": {
+            "es": "N'Kob → Ouarzazate → Marrakech",
+            "en": "N'Kob → Ouarzazate → Marrakech"
+          },
+          "description": {
+            "es": "Continuamos por el Valle del Drâa hasta Ouarzazate, puerta del desierto famosa por su patrimonio cinematográfico: estudios de cine (opcional) y Kasbah Taourirt. Por la tarde regresamos a Marrakech por el Alto Atlas.",
+            "en": "We continue along the Drâa Valley to Ouarzazate, gateway to the desert and famed for its film heritage: film studios (optional) and Kasbah Taourirt. In the afternoon we return to Marrakech over the High Atlas."
+          },
+          "stops": [
+            "Estudios de cine (opcional)",
+            "Kasbah Taourirt",
+            "Llegada a Marrakech"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kasbah-route-5d",
+      "code": "Ruta de las Kasbahs",
+      "type": "kasbahs",
+      "days": 5,
+      "nights": 4,
+      "name": {
+        "es": "Ruta de las Kasbahs · 5 días",
+        "en": "Kasbah Route · 5 days"
+      },
+      "route": "Marrakech → Dadès → Merzouga → N'Kob → Ouarzazate → Marrakech",
+      "tagline": {
+        "es": "Vive Marruecos de una forma auténtica.",
+        "en": "Live Morocco in an authentic way."
+      },
+      "closing": {
+        "es": "Más que un viaje… una experiencia.",
+        "en": "More than a trip… an experience."
+      },
+      "modes": [
+        "private",
+        "group"
+      ],
+      "price": "[COMPLETAR]",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": {
+            "es": "Marrakech → Dadès",
+            "en": "Marrakech → Dadès"
+          },
+          "description": {
+            "es": "Cruzamos el Alto Atlas por el Tizi n'Tichka, visitamos Aït Ben Haddou, vista panorámica de Ouarzazate y paradas en el Valle de las Rosas hasta el Valle del Dadès.",
+            "en": "We cross the High Atlas via the Tizi n'Tichka, visit Aït Ben Haddou, see Ouarzazate from a panoramic viewpoint and stop in the Valley of Roses on the way to the Dadès Valley."
+          },
+          "stops": [
+            "Tizi n'Tichka",
+            "Aït Ben Haddou",
+            "Valle de las Rosas",
+            "Noche en el Dadès"
+          ]
+        },
+        {
+          "day": 2,
+          "title": {
+            "es": "Dadès → Merzouga",
+            "en": "Dadès → Merzouga"
+          },
+          "description": {
+            "es": "Gargantas del Todra, cañón natural, y viaje por el sureste marroquí hasta Merzouga. Al atardecer, camello por las dunas y noche en campamento.",
+            "en": "Todra Gorge, a natural canyon, then a drive through south-eastern Morocco to Merzouga. At sunset a camel ride over the dunes and a night in camp."
+          },
+          "stops": [
+            "Gargantas del Todra",
+            "Paseo en camello",
+            "Campamento en el desierto"
+          ]
+        },
+        {
+          "day": 3,
+          "title": {
+            "es": "Merzouga · día completo",
+            "en": "Merzouga · full day"
+          },
+          "description": {
+            "es": "Amanecer sobre las dunas, visita a la región de Merzouga, encuentro con la gente local y sus tradiciones, oasis y paisajes saharianos. Tiempo libre para relajarte y disfrutar del silencio. Segunda noche en Merzouga.",
+            "en": "Sunrise over the dunes, exploring the Merzouga region, meeting local people and traditions, oases and Saharan landscapes. Free time to relax and enjoy the silence. Second night in Merzouga."
+          },
+          "stops": [
+            "Amanecer en las dunas",
+            "Oasis y cultura local",
+            "Tiempo libre"
+          ]
+        },
+        {
+          "day": 4,
+          "title": {
+            "es": "Merzouga → N'Kob",
+            "en": "Merzouga → N'Kob"
+          },
+          "description": {
+            "es": "Rissani, cuna de la dinastía alauí y su mercado tradicional, Valle del Drâa entre oasis y pueblos nómadas hasta N'Kob. Atardecer entre palmeras y montañas.",
+            "en": "Rissani, cradle of the Alaouite dynasty with its traditional market, then the Drâa Valley through oases and nomad villages to N'Kob. Sunset among palms and mountains."
+          },
+          "stops": [
+            "Rissani",
+            "Valle del Drâa",
+            "Noche en N'Kob"
+          ]
+        },
+        {
+          "day": 5,
+          "title": {
+            "es": "N'Kob → Ouarzazate → Marrakech",
+            "en": "N'Kob → Ouarzazate → Marrakech"
+          },
+          "description": {
+            "es": "Valle del Drâa hasta Ouarzazate: estudios de cine, Kasbah Taourirt (opcional) y regreso a Marrakech por el Alto Atlas.",
+            "en": "Drâa Valley to Ouarzazate: film studios, Kasbah Taourirt (optional) and return to Marrakech over the High Atlas."
+          },
+          "stops": [
+            "Estudios de cine",
+            "Kasbah Taourirt",
+            "Llegada a Marrakech"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "desert-to-fez-5d",
+      "code": "Route 04",
+      "type": "imperial",
+      "days": 5,
+      "nights": 4,
+      "name": {
+        "es": "Del desierto a la ciudad imperial",
+        "en": "Desert to the Imperial City"
+      },
+      "route": "Marrakech → Merzouga → Midelt → Ifrane → Fez",
+      "tagline": {
+        "es": "Un viaje completo, del desierto a la ciudad imperial.",
+        "en": "A complete journey, from the desert to the imperial city."
+      },
+      "closing": {
+        "es": "5 días. Mil experiencias.",
+        "en": "5 days. A thousand experiences."
+      },
+      "modes": [
+        "private",
+        "group"
+      ],
+      "price": "[COMPLETAR]",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": {
+            "es": "Marrakech → Atlas → Aït Ben Haddou → Ouarzazate",
+            "en": "Marrakech → Atlas → Aït Ben Haddou → Ouarzazate"
+          },
+          "description": {
+            "es": "Ciudad ocre, Tizi n'Tichka, Aït Ben Haddou y Ouarzazate, kasbahs, paisajes y mundo del cine.",
+            "en": "The ochre city, Tizi n'Tichka, Aït Ben Haddou and Ouarzazate: kasbahs, landscapes and film history."
+          },
+          "stops": [
+            "Marrakech",
+            "Atlas",
+            "Aït Ben Haddou",
+            "Ouarzazate"
+          ]
+        },
+        {
+          "day": 2,
+          "title": {
+            "es": "Ouarzazate → Dadès → Todra",
+            "en": "Ouarzazate → Dadès → Todra"
+          },
+          "description": {
+            "es": "Valles, montañas y formaciones rocosas del Dadès; impresionantes gargantas entre altas paredes en el Todra.",
+            "en": "Valleys, mountains and rock formations in the Dadès; impressive gorges between high walls at Todra."
+          },
+          "stops": [
+            "Dadès",
+            "Todra"
+          ]
+        },
+        {
+          "day": 3,
+          "title": {
+            "es": "Todra → Erfoud → Merzouga",
+            "en": "Todra → Erfoud → Merzouga"
+          },
+          "description": {
+            "es": "Erfoud, la entrada al desierto, y Merzouga: dunas, atardecer y noche en el Sahara.",
+            "en": "Erfoud, the entrance to the desert, then Merzouga: dunes, sunset and a night in the Sahara."
+          },
+          "stops": [
+            "Erfoud",
+            "Merzouga",
+            "Noche en el Sahara"
+          ]
+        },
+        {
+          "day": 4,
+          "title": {
+            "es": "Merzouga → Midelt → Ifrane",
+            "en": "Merzouga → Midelt → Ifrane"
+          },
+          "description": {
+            "es": "Amanecer entre las dunas, Midelt (montañas y naturaleza) e Ifrane: bosques, aire puro y arquitectura única.",
+            "en": "Sunrise among the dunes, Midelt (mountains and nature) and Ifrane: forests, fresh air and unique architecture."
+          },
+          "stops": [
+            "Amanecer en las dunas",
+            "Midelt",
+            "Ifrane"
+          ]
+        },
+        {
+          "day": 5,
+          "title": {
+            "es": "Ifrane → Fez",
+            "en": "Ifrane → Fez"
+          },
+          "description": {
+            "es": "Un Marruecos diferente en Ifrane y llegada a Fez: historia, cultura y una medina llena de vida.",
+            "en": "A different Morocco in Ifrane, then arrival in Fez: history, culture and a medina full of life."
+          },
+          "stops": [
+            "Ifrane",
+            "Fez"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kasbah-route-6d",
+      "code": "Ruta de las Kasbahs",
+      "type": "kasbahs",
+      "days": 6,
+      "nights": 5,
+      "name": {
+        "es": "Ruta de las Kasbahs · 6 días",
+        "en": "Kasbah Route · 6 days"
+      },
+      "route": "Marrakech → Dadès → Merzouga → N'Kob → Ouarzazate → Marrakech",
+      "tagline": {
+        "es": "Descubre el verdadero Marruecos.",
+        "en": "Discover the real Morocco."
+      },
+      "closing": {
+        "es": "Más que un viaje… una experiencia.",
+        "en": "More than a trip… an experience."
+      },
+      "modes": [
+        "private",
+        "group"
+      ],
+      "price": "[COMPLETAR]",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": {
+            "es": "Marrakech → Aït Ben Haddou → Dadès",
+            "en": "Marrakech → Aït Ben Haddou → Dadès"
+          },
+          "description": {
+            "es": "Salida temprano por el Tizi n'Tichka, visita de la Kasbah de Aït Ben Haddou y Ruta de las Mil Kasbahs con paradas en el Valle de las Rosas. Noche en el Valle del Dadès.",
+            "en": "Early start over the Tizi n'Tichka, visit to the Kasbah of Aït Ben Haddou and the Road of a Thousand Kasbahs with stops in the Valley of Roses. Night in the Dadès Valley."
+          },
+          "stops": [
+            "Aït Ben Haddou",
+            "Ruta de las Mil Kasbahs",
+            "Valle de las Rosas"
+          ]
+        },
+        {
+          "day": 2,
+          "title": {
+            "es": "Dadès → Gargantas del Todra → Merzouga",
+            "en": "Dadès → Todra Gorge → Merzouga"
+          },
+          "description": {
+            "es": "Gargantas del Todra, oasis y pueblos tradicionales hasta Merzouga. Paseo en camello al atardecer y noche en campamento en el desierto.",
+            "en": "Todra Gorge, oases and traditional villages on the way to Merzouga. Camel ride at sunset and a night in a desert camp."
+          },
+          "stops": [
+            "Gargantas del Todra",
+            "Paseo en camello",
+            "Campamento"
+          ]
+        },
+        {
+          "day": 3,
+          "title": {
+            "es": "Merzouga · día completo en el desierto",
+            "en": "Merzouga · full day in the desert"
+          },
+          "description": {
+            "es": "Amanecer, visita a un oasis, vida nómada y cultura local. Tiempo libre para disfrutar de las dunas. Segunda noche en Merzouga.",
+            "en": "Sunrise, an oasis visit, nomadic life and local culture. Free time to enjoy the dunes. Second night in Merzouga."
+          },
+          "stops": [
+            "Amanecer en las dunas",
+            "Oasis y cultura local",
+            "Tiempo libre"
+          ]
+        },
+        {
+          "day": 4,
+          "title": {
+            "es": "Merzouga → N'Kob",
+            "en": "Merzouga → N'Kob"
+          },
+          "description": {
+            "es": "Mercado de Rissani, Valle del Drâa y llegada a N'Kob, conocido por sus kasbahs. Atardecer entre palmeras y montañas.",
+            "en": "Rissani market, the Drâa Valley and arrival in N'Kob, known for its kasbahs. Sunset among palms and mountains."
+          },
+          "stops": [
+            "Rissani",
+            "Valle del Drâa",
+            "Noche en N'Kob"
+          ]
+        },
+        {
+          "day": 5,
+          "title": {
+            "es": "N'Kob → Ouarzazate",
+            "en": "N'Kob → Ouarzazate"
+          },
+          "description": {
+            "es": "Valle del Drâa con oasis y kasbahs; en Ouarzazate, estudios de cine y Kasbah Taourirt. Tiempo libre. Noche en Ouarzazate.",
+            "en": "Drâa Valley with oases and kasbahs; in Ouarzazate, film studios and Kasbah Taourirt. Free time. Night in Ouarzazate."
+          },
+          "stops": [
+            "Valle del Drâa",
+            "Estudios de cine",
+            "Kasbah Taourirt"
+          ]
+        },
+        {
+          "day": 6,
+          "title": {
+            "es": "Ouarzazate → Marrakech",
+            "en": "Ouarzazate → Marrakech"
+          },
+          "description": {
+            "es": "Última parada con vistas del Alto Atlas y paradas panorámicas. Llegada a Marrakech a última hora de la tarde.",
+            "en": "Final stop with High Atlas views and panoramic photo stops. Arrival in Marrakech in the late afternoon."
+          },
+          "stops": [
+            "Vistas panorámicas",
+            "Alto Atlas",
+            "Llegada a Marrakech"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "signature-8d",
+      "code": "Signature Route",
+      "type": "signature",
+      "days": 8,
+      "nights": 7,
+      "name": {
+        "es": "Ruta Signature",
+        "en": "Signature Route"
+      },
+      "route": "Marrakech → Atlas → Aït Ben Haddou → Dadès → Todra → Merzouga → Fez → Chefchaouen",
+      "tagline": {
+        "es": "Un viaje completo, de la montaña al desierto, de la historia a la magia azul.",
+        "en": "A complete journey, from mountain to desert, from history to blue magic."
+      },
+      "closing": {
+        "es": "No es solo un circuito, es una forma de atravesar Marruecos.",
+        "en": "It's not just a circuit, it's a way of crossing Morocco."
+      },
+      "modes": [
+        "private",
+        "group"
+      ],
+      "price": "[COMPLETAR]",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": {
+            "es": "Marrakech",
+            "en": "Marrakech"
+          },
+          "description": {
+            "es": "Comenzamos en la ciudad ocre, entre medinas, zocos, arquitectura y el movimiento de sus calles.",
+            "en": "We begin in the ochre city, among medinas, souks, architecture and the buzz of its streets."
+          },
+          "stops": [
+            "Medina",
+            "Zocos"
+          ]
+        },
+        {
+          "day": 2,
+          "title": {
+            "es": "Marrakech → Atlas → Aït Ben Haddou",
+            "en": "Marrakech → Atlas → Aït Ben Haddou"
+          },
+          "description": {
+            "es": "El Atlas, puerta natural hacia el sur, y Aït Ben Haddou, donde arquitectura tradicional y paisaje cuentan la historia del sur.",
+            "en": "The Atlas, the natural gateway to the south, and Aït Ben Haddou, where traditional architecture and landscape tell the story of the south."
+          },
+          "stops": [
+            "Atlas",
+            "Aït Ben Haddou"
+          ]
+        },
+        {
+          "day": 3,
+          "title": {
+            "es": "Aït Ben Haddou → Ouarzazate → Dadès",
+            "en": "Aït Ben Haddou → Ouarzazate → Dadès"
+          },
+          "description": {
+            "es": "Ouarzazate, kasbahs, paisajes y cine; después el Dadès con valles, montañas y formaciones rocosas.",
+            "en": "Ouarzazate, kasbahs, landscapes and cinema; then the Dadès with valleys, mountains and rock formations."
+          },
+          "stops": [
+            "Ouarzazate",
+            "Dadès"
+          ]
+        },
+        {
+          "day": 4,
+          "title": {
+            "es": "Dadès → Todra → Merzouga",
+            "en": "Dadès → Todra → Merzouga"
+          },
+          "description": {
+            "es": "Espectaculares gargantas entre enormes paredes de roca. De la piedra pasamos a la arena: dunas, atardecer y una noche bajo las estrellas.",
+            "en": "Spectacular gorges between huge rock walls. From stone to sand: dunes, sunset and a night under the stars."
+          },
+          "stops": [
+            "Todra",
+            "Merzouga"
+          ]
+        },
+        {
+          "day": 5,
+          "title": {
+            "es": "Merzouga → Midelt → Ifrane → Fez",
+            "en": "Merzouga → Midelt → Ifrane → Fez"
+          },
+          "description": {
+            "es": "Midelt (montañas y naturaleza), Ifrane (bosques, un Marruecos completamente diferente) y Fez, cultura, artesanía y una medina llena de historia.",
+            "en": "Midelt (mountains and nature), Ifrane (forests, a completely different Morocco) and Fez: culture, crafts and a medina full of history."
+          },
+          "stops": [
+            "Midelt",
+            "Ifrane",
+            "Fez"
+          ]
+        },
+        {
+          "day": 6,
+          "title": {
+            "es": "Fez",
+            "en": "Fez"
+          },
+          "description": {
+            "es": "Un día para perderse por la medina, descubrir la artesanía y sentir el ritmo de una de las ciudades más fascinantes de Marruecos.",
+            "en": "A day to get lost in the medina, discover the crafts and feel the rhythm of one of Morocco's most fascinating cities."
+          },
+          "stops": [
+            "Medina de Fez",
+            "Artesanía"
+          ]
+        },
+        {
+          "day": 7,
+          "title": {
+            "es": "Fez → Chefchaouen",
+            "en": "Fez → Chefchaouen"
+          },
+          "description": {
+            "es": "Llegamos a la Ciudad Azul, entre montañas del Rif. Sus calles, colores y pequeñas plazas convierten el paseo en una experiencia única.",
+            "en": "We reach the Blue City in the Rif mountains. Its streets, colours and small squares make every walk unique."
+          },
+          "stops": [
+            "Chefchaouen"
+          ]
+        },
+        {
+          "day": 8,
+          "title": {
+            "es": "Chefchaouen",
+            "en": "Chefchaouen"
+          },
+          "description": {
+            "es": "Último paseo por la ciudad para disfrutar de sus rincones, su artesanía y despedirnos de Marruecos.",
+            "en": "A last stroll through the city to enjoy its corners and crafts, and say goodbye to Morocco."
+          },
+          "stops": [
+            "Despedida"
+          ]
+        }
+      ]
+    }
+  ],
+  "included": {
+    "title": {
+      "es": "Qué incluye",
+      "en": "What's included"
+    },
+    "items": [
+      {
+        "icon": "car",
+        "label": {
+          "es": "Transporte cómodo y seguro",
+          "en": "Comfortable, safe transport"
+        },
+        "note": {
+          "es": "Privado o en grupo",
+          "en": "Private or small group"
+        }
+      },
+      {
+        "icon": "bed",
+        "label": {
+          "es": "Alojamientos seleccionados",
+          "en": "Selected accommodation"
+        },
+        "note": {
+          "es": "Riads, hoteles, kasbahs y campamento en el desierto",
+          "en": "Riads, hotels, kasbahs and a desert camp"
+        }
+      },
+      {
+        "icon": "food",
+        "label": {
+          "es": "Comida tradicional marroquí",
+          "en": "Traditional Moroccan food"
+        }
+      },
+      {
+        "icon": "guide",
+        "label": {
+          "es": "Guías locales expertos",
+          "en": "Expert local guides"
+        }
+      },
+      {
+        "icon": "shield",
+        "label": {
+          "es": "Experiencias auténticas y personalizadas",
+          "en": "Authentic, personalised experiences"
+        }
+      }
+    ],
+    "disclaimer": {
+      "es": "Lo incluido puede variar según la opción elegida; consúltanos para tu ruta.",
+      "en": "Inclusions vary by option; ask us about your route."
+    }
+  },
+  "experiences": [
+    {
+      "title": {
+        "es": "Noche en el desierto",
+        "en": "A night in the desert"
+      },
+      "text": {
+        "es": "Paseo en camello al atardecer, campamento bajo las estrellas y amanecer sobre las dunas de Merzouga.",
+        "en": "Camel ride at sunset, a camp under the stars and sunrise over the Merzouga dunes."
+      }
+    },
+    {
+      "title": {
+        "es": "Ruta de las Mil Kasbahs",
+        "en": "Road of a Thousand Kasbahs"
+      },
+      "text": {
+        "es": "Aït Ben Haddou, Skoura, Taourirt y los valles del Dadès y el Drâa.",
+        "en": "Aït Ben Haddou, Skoura, Taourirt and the Dadès and Drâa valleys."
+      }
+    },
+    {
+      "title": {
+        "es": "Gargantas del Todra",
+        "en": "Todra Gorge"
+      },
+      "text": {
+        "es": "Paredes de roca que convierten el camino en una experiencia única.",
+        "en": "Rock walls that turn the road into a one-of-a-kind experience."
+      }
+    },
+    {
+      "title": {
+        "es": "Costa Atlántica y surf",
+        "en": "Atlantic coast & surf"
+      },
+      "text": {
+        "es": "Essaouira, Aghror y Taghazout: playas, puerto y olas.",
+        "en": "Essaouira, Aghror and Taghazout: beaches, harbour and waves."
+      }
+    },
+    {
+      "title": {
+        "es": "Fez y Chefchaouen",
+        "en": "Fez & Chefchaouen"
+      },
+      "text": {
+        "es": "La medina más viva de Marruecos y la magia de la Ciudad Azul.",
+        "en": "Morocco's liveliest medina and the magic of the Blue City."
+      }
+    }
+  ],
+  "why": [
+    {
+      "title": {
+        "es": "Guías locales",
+        "en": "Local guides"
+      },
+      "text": {
+        "es": "Conocemos cada valle, oasis y duna porque vivimos aquí.",
+        "en": "We know every valley, oasis and dune because we live here."
+      }
+    },
+    {
+      "title": {
+        "es": "Rutas a tu medida",
+        "en": "Tailored routes"
+      },
+      "text": {
+        "es": "Añade días, cambia paradas o combina rutas.",
+        "en": "Add days, swap stops or combine routes."
+      }
+    },
+    {
+      "title": {
+        "es": "Privado o en grupo",
+        "en": "Private or group"
+      },
+      "text": {
+        "es": "Tú eliges cómo viajar.",
+        "en": "You choose how to travel."
+      }
+    },
+    {
+      "title": {
+        "es": "Autenticidad",
+        "en": "Authenticity"
+      },
+      "text": {
+        "es": "Menos turismo de masas, más gente, cultura y tradición.",
+        "en": "Less mass tourism, more people, culture and tradition."
+      }
+    }
+  ],
+  "testimonials": {
+    "note": "PLACEHOLDER: replace with real customer reviews before publishing",
+    "items": []
+  },
+  "faq": [
+    {
+      "q": {
+        "es": "¿Desde dónde salen los tours?",
+        "en": "Where do the tours start?"
+      },
+      "a": {
+        "es": "Todas las rutas salen de Marrakech. Consúltanos para otros puntos de salida.",
+        "en": "All routes start in Marrakech. Ask us about other pick-up points."
+      }
+    },
+    {
+      "q": {
+        "es": "¿Son privados o en grupo?",
+        "en": "Private or group?"
+      },
+      "a": {
+        "es": "Ambas opciones están disponibles en todas las rutas.",
+        "en": "Both options are available on every route."
+      }
+    },
+    {
+      "q": {
+        "es": "¿Puedo personalizar la ruta?",
+        "en": "Can I customise a route?"
+      },
+      "a": {
+        "es": "Sí. Ajustamos días, paradas y ritmo.",
+        "en": "Yes. We adjust days, stops and pace."
+      }
+    },
+    {
+      "q": {
+        "es": "¿Qué debo llevar al desierto?",
+        "en": "What should I bring to the desert?"
+      },
+      "a": {
+        "es": "Ropa cómoda, calzado cerrado, gafas de sol, protección solar y una prenda de abrigo para la noche.",
+        "en": "Comfortable clothes, closed shoes, sunglasses, sun protection and a warm layer for the night."
+      }
+    },
+    {
+      "q": {
+        "es": "¿Cuál es la mejor época?",
+        "en": "When is the best time to go?"
+      },
+      "a": {
+        "es": "[COMPLETAR: temporadas recomendadas]",
+        "en": "[TO COMPLETE: recommended seasons]"
+      }
+    },
+    {
+      "q": {
+        "es": "¿Cómo reservo?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "es": "Escríbenos por WhatsApp o usa el formulario y te respondemos con propuesta y precio.",
+        "en": "Message us on WhatsApp or use the form and we'll reply with a proposal and price."
+      }
+    }
+  ],
+  "cta": {
+    "title": {
+      "es": "¿Preparado para vivir Marruecos?",
+      "en": "Ready to live Morocco?"
+    },
+    "text": {
+      "es": "Cuéntanos tus fechas y qué te gustaría ver. Diseñamos tu ruta.",
+      "en": "Tell us your dates and what you'd love to see. We'll design your route."
+    },
+    "button": {
+      "es": "Solicitar presupuesto",
+      "en": "Request a quote"
+    }
+  },
+  "contact": {
+    "form": [
+      {
+        "name": "name",
+        "label": {
+          "es": "Nombre",
+          "en": "Name"
+        },
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": {
+          "es": "Teléfono / WhatsApp",
+          "en": "Phone / WhatsApp"
+        }
+      },
+      {
+        "name": "route",
+        "label": {
+          "es": "Ruta de interés",
+          "en": "Route of interest"
+        },
+        "type": "select",
+        "options": "routes"
+      },
+      {
+        "name": "date",
+        "label": {
+          "es": "Fecha aproximada",
+          "en": "Approximate date"
+        },
+        "type": "date"
+      },
+      {
+        "name": "travelers",
+        "label": {
+          "es": "Nº de viajeros",
+          "en": "Travellers"
+        },
+        "type": "number"
+      },
+      {
+        "name": "mode",
+        "label": {
+          "es": "Privado o grupo",
+          "en": "Private or group"
+        },
+        "type": "select",
+        "options": [
+          "private",
+          "group"
+        ]
+      },
+      {
+        "name": "message",
+        "label": {
+          "es": "Mensaje",
+          "en": "Message"
+        },
+        "type": "textarea"
+      }
+    ],
+    "details": {
+      "whatsapp": "[COMPLETAR]",
+      "email": "[COMPLETAR]",
+      "instagram": "[COMPLETAR]",
+      "base": "Merzouga / Marrakech, Marruecos"
+    }
+  },
+  "footer": {
+    "text": {
+      "es": "Más que un viaje… una experiencia.",
+      "en": "More than a trip… an experience."
+    },
+    "copyright": "© 2026 Musti Targui Morocco Tours"
+  },
+  "seo": {
+    "title": {
+      "es": "Musti Targui Morocco Tours | Tours privados desde Marrakech al Sahara",
+      "en": "Musti Targui Morocco Tours | Private tours from Marrakech to the Sahara"
+    },
+    "description": {
+      "es": "Circuitos de 2 a 8 días desde Marrakech: Ruta de las Kasbahs, Sahara en Merzouga, costa atlántica, Fez y Chefchaouen. Guías locales, privado o en grupo.",
+      "en": "2 to 8-day tours from Marrakech: Kasbah Route, Sahara at Merzouga, Atlantic coast, Fez and Chefchaouen. Local guides, private or group."
+    },
+    "keywords": [
+      "tours Marruecos",
+      "Marrakech desierto",
+      "Merzouga",
+      "Ruta de las Kasbahs",
+      "Sahara camello",
+      "Essaouira Taghazout",
+      "Fez Chefchaouen",
+      "Morocco tours",
+      "Sahara desert tour"
+    ]
+  }
+}
