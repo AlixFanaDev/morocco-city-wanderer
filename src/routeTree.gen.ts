@@ -10,12 +10,36 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ExperiencesRouteImport } from './routes/experiences'
+import { Route as FaqRouteImport } from './routes/faq'
+import { Route as GalleryRouteImport } from './routes/gallery'
+import { Route as WhyUsRouteImport } from './routes/why-us'
 import { Route as RoutesIndexRouteImport } from './routes/routes.index'
 import { Route as RoutesSlugRouteImport } from './routes/routes.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ExperiencesRoute = ExperiencesRouteImport.update({
+  id: '/experiences',
+  path: '/experiences',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FaqRoute = FaqRouteImport.update({
+  id: '/faq',
+  path: '/faq',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GalleryRoute = GalleryRouteImport.update({
+  id: '/gallery',
+  path: '/gallery',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WhyUsRoute = WhyUsRouteImport.update({
+  id: '/why-us',
+  path: '/why-us',
   getParentRoute: () => rootRouteImport,
 } as any)
 const RoutesIndexRoute = RoutesIndexRouteImport.update({
@@ -31,30 +55,68 @@ const RoutesSlugRoute = RoutesSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/experiences': typeof ExperiencesRoute
+  '/faq': typeof FaqRoute
+  '/gallery': typeof GalleryRoute
+  '/why-us': typeof WhyUsRoute
   '/routes/$slug': typeof RoutesSlugRoute
   '/routes/': typeof RoutesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/experiences': typeof ExperiencesRoute
+  '/faq': typeof FaqRoute
+  '/gallery': typeof GalleryRoute
+  '/why-us': typeof WhyUsRoute
   '/routes/$slug': typeof RoutesSlugRoute
   '/routes': typeof RoutesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/experiences': typeof ExperiencesRoute
+  '/faq': typeof FaqRoute
+  '/gallery': typeof GalleryRoute
+  '/why-us': typeof WhyUsRoute
   '/routes/$slug': typeof RoutesSlugRoute
   '/routes/': typeof RoutesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/routes/$slug' | '/routes/'
+  fullPaths:
+    | '/'
+    | '/experiences'
+    | '/faq'
+    | '/gallery'
+    | '/why-us'
+    | '/routes/$slug'
+    | '/routes/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/routes/$slug' | '/routes'
-  id: '__root__' | '/' | '/routes/$slug' | '/routes/'
+  to:
+    | '/'
+    | '/experiences'
+    | '/faq'
+    | '/gallery'
+    | '/why-us'
+    | '/routes/$slug'
+    | '/routes'
+  id:
+    | '__root__'
+    | '/'
+    | '/experiences'
+    | '/faq'
+    | '/gallery'
+    | '/why-us'
+    | '/routes/$slug'
+    | '/routes/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ExperiencesRoute: typeof ExperiencesRoute
+  FaqRoute: typeof FaqRoute
+  GalleryRoute: typeof GalleryRoute
+  WhyUsRoute: typeof WhyUsRoute
   RoutesSlugRoute: typeof RoutesSlugRoute
   RoutesIndexRoute: typeof RoutesIndexRoute
 }
@@ -66,6 +128,34 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/experiences': {
+      id: '/experiences'
+      path: '/experiences'
+      fullPath: '/experiences'
+      preLoaderRoute: typeof ExperiencesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/faq': {
+      id: '/faq'
+      path: '/faq'
+      fullPath: '/faq'
+      preLoaderRoute: typeof FaqRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gallery': {
+      id: '/gallery'
+      path: '/gallery'
+      fullPath: '/gallery'
+      preLoaderRoute: typeof GalleryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/why-us': {
+      id: '/why-us'
+      path: '/why-us'
+      fullPath: '/why-us'
+      preLoaderRoute: typeof WhyUsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/routes/': {
@@ -87,6 +177,10 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ExperiencesRoute: ExperiencesRoute,
+  FaqRoute: FaqRoute,
+  GalleryRoute: GalleryRoute,
+  WhyUsRoute: WhyUsRoute,
   RoutesSlugRoute: RoutesSlugRoute,
   RoutesIndexRoute: RoutesIndexRoute,
 }
