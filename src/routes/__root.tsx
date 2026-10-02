@@ -9,16 +9,21 @@ import {
   type ErrorComponentProps,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
+import { MessageCircle } from "lucide-react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { LanguageProvider, useI18n } from "@/lib/i18n";
+import { whatsappHref } from "@/lib/contact";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
-        <h1 className="text-7xl font-bold text-foreground">404</h1>
-        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
+        <h1 className="font-display text-7xl font-bold text-foreground">404</h1>
+        <h2 className="mt-4 font-display text-xl font-semibold text-foreground">Page not found</h2>
         <p className="mt-2 text-sm text-muted-foreground">
           The page you're looking for doesn't exist or has been moved.
         </p>
@@ -45,7 +50,7 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
-        <h1 className="text-xl font-semibold tracking-tight text-foreground">
+        <h1 className="font-display text-xl font-semibold tracking-tight text-foreground">
           This page didn't load
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">
@@ -78,21 +83,29 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Musti Targui Morocco Tours | Tours privados desde Marrakech al Sahara" },
+      {
+        name: "description",
+        content:
+          "Circuitos de 2 a 8 días desde Marrakech: Ruta de las Kasbahs, Sahara en Merzouga, costa atlántica, Fez y Chefchaouen. Guías locales, privado o en grupo.",
+      },
+      { property: "og:title", content: "Musti Targui Morocco Tours" },
+      {
+        property: "og:description",
+        content: "Tu ruta. Tu ritmo. Tu Marruecos. Real Experiences · Authentic Morocco",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
     ],
   }),
   shellComponent: RootShell,
@@ -103,7 +116,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <HeadContent />
       </head>
@@ -115,13 +128,39 @@ function RootShell({ children }: { children: ReactNode }) {
   );
 }
 
+function WhatsAppFloat() {
+  const { t, lang } = useI18n();
+  return (
+    <a
+      href={whatsappHref(
+        lang === "es"
+          ? "Hola Musti Targui, me gustaría información sobre vuestras rutas."
+          : "Hello Musti Targui, I would like information about your routes.",
+      )}
+      aria-label={t({ es: "Reservar por WhatsApp", en: "Book on WhatsApp" })}
+      className="fixed right-5 bottom-5 z-50 inline-flex h-13 w-13 items-center justify-center rounded-full bg-gold text-night shadow-lg shadow-gold/40 transition-transform hover:scale-105"
+    >
+      <MessageCircle className="h-6 w-6" />
+    </a>
+  );
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <LanguageProvider>
+        <div className="flex min-h-screen flex-col">
+          <Header />
+          <main className="flex-1">
+            {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+            <Outlet />
+          </main>
+          <Footer />
+          <WhatsAppFloat />
+        </div>
+      </LanguageProvider>
     </QueryClientProvider>
   );
 }
