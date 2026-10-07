@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png.asset.json";
 import { siteContent, useI18n } from "@/lib/i18n";
+import { navTarget } from "@/lib/nav";
 import { cn } from "@/lib/utils";
 
 export function Header() {
@@ -26,7 +27,7 @@ export function Header() {
           {navItems.map((item) => (
             <Link
               key={item.id}
-              to={item.id === "why" ? "/why-us" : item.id === "contact" ? "/contact" : item.id === "routes" ? "/routes" : `/${item.id}`}
+              to={navTarget(item.id)}
               className="text-sm font-medium text-white/80 transition-colors hover:text-gold-light"
               activeProps={{ className: "text-gold-light" }}
             >
@@ -73,7 +74,7 @@ export function Header() {
             {siteContent.navigation.map((item) => (
               <Link
                 key={item.id}
-                to={item.id === "why" ? "/why-us" : item.id === "contact" ? "/contact" : item.id === "routes" ? "/routes" : `/${item.id}`}
+                to={navTarget(item.id)}
                 className={cn(
                   "border-b border-white/5 py-3 text-sm font-medium",
                   item.cta ? "mt-3 text-gold-light" : "text-white/85",

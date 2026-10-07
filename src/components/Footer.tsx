@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { MapPin } from "lucide-react";
 import logo from "@/assets/logo.png.asset.json";
 import { siteContent, useI18n } from "@/lib/i18n";
+import { navTarget } from "@/lib/nav";
 
 export function Footer() {
   const { t } = useI18n();
@@ -30,10 +31,7 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             {navItems.map((item) => (
               <li key={item.id}>
-                <Link
-                  to={item.id === "why" ? "/why-us" : item.id === "routes" ? "/routes" : `/${item.id}`}
-                  className="text-white/75 transition-colors hover:text-gold-light"
-                >
+                <Link to={navTarget(item.id)} className="text-white/75 transition-colors hover:text-gold-light">
                   {t(item.label)}
                 </Link>
               </li>
