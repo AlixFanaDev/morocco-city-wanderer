@@ -8,9 +8,9 @@ import { PageHero } from "@/components/SectionHeading";
 import { Reveal } from "@/components/Reveal";
 
 export const Route = createFileRoute("/contact")({
-  validateSearch: (search: Record<string, unknown>) => ({
-    route: typeof search.route === "string" ? search.route : undefined,
-  }),
+  validateSearch: (search: Record<string, unknown>): { route?: string } => {
+    return typeof search["route"] === "string" ? { route: search["route"] } : {};
+  },
   head: () => ({
     meta: [
       { title: "Reservar — Musti Targui Morocco Tours" },
