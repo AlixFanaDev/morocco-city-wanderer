@@ -14,7 +14,7 @@ import { MessageCircle } from "lucide-react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { LanguageProvider, useI18n } from "@/lib/i18n";
-import { whatsappHref } from "@/lib/contact";
+import { whatsappHref, whatsappIsDirect } from "@/lib/contact";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
@@ -158,7 +158,9 @@ function RootComponent() {
             <Outlet />
           </main>
           <Footer />
-          <WhatsAppFloat />
+          {/* Only shown once a real WhatsApp number is filled in — while it's
+              empty the button would just re-link to /contact and cover content. */}
+          {whatsappIsDirect() && <WhatsAppFloat />}
         </div>
       </LanguageProvider>
     </QueryClientProvider>
