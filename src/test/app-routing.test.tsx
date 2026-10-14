@@ -1,39 +1,37 @@
 import { QueryClient } from "@tanstack/react-query";
-import { createMemoryHistory, createRouter, RouterProvider } from "@tanstack/react-router";
-import { cleanup, render, waitFor } from "@testing-library/react";
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { createMemoryHistory, createRouter } from "@tanstack/react-router";
+import { describe, expect, it } from "vitest";
 
 import { routeTree } from "@/routeTree.gen";
 
-function renderAt(path: string) {
-  const queryClient = new QueryClient();
-  const router = createRouter({
+// The root route ships a shellComponent that renders the whole <html> document,
+// which cannot be mounted inside a test container. So these assert on the
+// router's own resolution instead of DOM paint: routes are rewritten as the app
+// is built and this must keep passing.
+function makeRouter(path: string) {
+  return createRouter({
     routeTree,
-    context: { queryClient },
+    context: { queryClient: new QueryClient() },
     history: createMemoryHistory({ initialEntries: [path] }),
   });
-  return render(<RouterProvider router={router} />);
 }
 
-afterEach(() => {
-  cleanup();
-  vi.restoreAllMocks();
-});
+async function matchedRouteIds(path: string) {
+  const router = makeRouter(path);
+  await router.load();
+  return router.state.matches.map((m) => m.routeId);
+}
 
-// Assert only that the router mounts and paints, never page content:
-// routes are rewritten as the app is built and this must keep passing.
 describe("App routing", () => {
-  it("renders the index route", async () => {
-    const { container } = renderAt("/");
-
-    await waitFor(() => expect(container.firstChild).not.toBeNull());
+  it("resolves the index route", async () => {
+    expect(await matchedRouteIds("/")).toEqual(["__root__", "/"]);
   });
 
-  it("renders the not-found route", async () => {
-    vi.spyOn(console, "warn").mockImplementation(() => undefined);
+  it("resolves a route detail page", async () => {
+    expect(await matchedRouteIds("/routes/kasbah-express-2d")).toEqual(["__root__", "/routes/$slug"]);
+  });
 
-    const { container } = renderAt("/this-route-does-not-exist");
-
-    await waitFor(() => expect(container.firstChild).not.toBeNull());
+  it("falls back to the root not-found route for unknown paths", async () => {
+    expect(await matchedRouteIds("/this-route-does-not-exist")).toEqual(["__root__"]);
   });
 });

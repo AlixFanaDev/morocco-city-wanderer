@@ -31,6 +31,8 @@ export const Route = createFileRoute("/routes/$slug")({
         { name: "description", content: loaderData.route.tagline.es },
         { property: "og:title", content: `${loaderData.route.name.es} — Musti Targui Morocco Tours` },
         { property: "og:description", content: loaderData.route.tagline.es },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary_large_image" },
       ],
     };
   },

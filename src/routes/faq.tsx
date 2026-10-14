@@ -18,6 +18,8 @@ export const Route = createFileRoute("/faq")({
         property: "og:description",
         content: "Todo lo que necesitas saber antes de viajar con nosotros.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: FaqPage,

@@ -23,6 +23,8 @@ export const Route = createFileRoute("/contact")({
         property: "og:description",
         content: "Solicita tu presupuesto: fechas, ruta, nº de viajeros y privado o en grupo.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: ContactPage,

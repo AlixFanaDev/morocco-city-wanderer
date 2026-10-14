@@ -61,6 +61,8 @@ export const Route = createFileRoute("/")({
         content:
           "Kasbahs, Atlas, Sahara y costa atlántica con guías locales que viven el desierto. Rutas privadas o en grupo desde Marrakech.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Index,

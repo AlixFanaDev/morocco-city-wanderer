@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { MessageCircle } from "lucide-react";
 import { siteContent, useI18n } from "@/lib/i18n";
-import { whatsappHref } from "@/lib/contact";
+import { whatsappHref, whatsappIsDirect } from "@/lib/contact";
 import { Reveal } from "@/components/Reveal";
 
 export function CtaBanner() {
@@ -22,17 +22,19 @@ export function CtaBanner() {
             >
               {t(cta.button)}
             </Link>
-            <a
-              href={whatsappHref(
-                lang === "es"
-                  ? "Hola Musti Targui, quiero diseñar mi ruta por Marruecos."
-                  : "Hello Musti Targui, I'd like to design my route across Morocco.",
-              )}
-              className="inline-flex items-center gap-2 rounded-full border border-gold/50 px-7 py-3 text-sm font-semibold text-gold-light transition-colors hover:bg-gold/10"
-            >
-              <MessageCircle className="h-4 w-4" />
-              WhatsApp
-            </a>
+            {whatsappIsDirect() && (
+              <a
+                href={whatsappHref(
+                  lang === "es"
+                    ? "Hola Musti Targui, quiero diseñar mi ruta por Marruecos."
+                    : "Hello Musti Targui, I'd like to design my route across Morocco.",
+                )}
+                className="inline-flex items-center gap-2 rounded-full border border-gold/50 px-7 py-3 text-sm font-semibold text-gold-light transition-colors hover:bg-gold/10"
+              >
+                <MessageCircle className="h-4 w-4" />
+                WhatsApp
+              </a>
+            )}
           </div>
         </div>
       </section>
