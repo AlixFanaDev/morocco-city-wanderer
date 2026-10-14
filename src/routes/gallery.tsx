@@ -19,6 +19,8 @@ export const Route = createFileRoute("/gallery")({
         property: "og:description",
         content: "Un vistazo a los paisajes y ciudades que cruzan nuestras rutas.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: GalleryPage,

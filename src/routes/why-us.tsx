@@ -30,6 +30,8 @@ export const Route = createFileRoute("/why-us")({
         property: "og:description",
         content: "Guías locales, rutas a tu medida y experiencias auténticas desde Merzouga y Marrakech.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: WhyUsPage,

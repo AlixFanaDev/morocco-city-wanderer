@@ -20,6 +20,8 @@ export const Route = createFileRoute("/routes/")({
         property: "og:description",
         content: "8 rutas de 2 a 8 días desde Marrakech: kasbahs, desierto, costa atlántica y ciudades imperiales.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: RoutesPage,

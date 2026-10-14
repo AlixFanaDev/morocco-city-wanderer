@@ -25,6 +25,8 @@ export const Route = createFileRoute("/experiences")({
         property: "og:description",
         content: "Momentos que no se olvidan: dunas, kasbahs, gargantas, olas y medinas.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: ExperiencesPage,
