@@ -21,7 +21,7 @@ export function Footer() {
             </div>
           </div>
           <p className="font-script mt-5 text-2xl text-gold-light/90">{t(siteContent.footer.text)}</p>
-          <p className="mt-2 text-xs tracking-[0.2em] text-white/50 uppercase">{siteContent.brand.strapline}</p>
+          <p className="mt-2 text-xs tracking-[0.2em] text-white/70 uppercase">{siteContent.brand.strapline}</p>
         </div>
 
         <div>
@@ -55,7 +55,7 @@ export function Footer() {
           </Link>
         </div>
       </div>
-      <div className="border-t border-white/10 py-5 text-center text-xs text-white/50">
+      <div className="border-t border-white/10 py-5 text-center text-xs text-white/65">
         {siteContent.footer.copyright}
       </div>
     </footer>
